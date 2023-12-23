@@ -1,16 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import TimeLine from "./Timeline";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-    
-       
-      </header>
-    </div>
-  );
+  return <TimeLine />;
 }
 
 export default App;
